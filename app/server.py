@@ -7,7 +7,7 @@ from io import BytesIO
 from fastai.vision import *
 from fastai import *
 
-model_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+model_file_url = 'https://github.com/chardoo/mala-models/blob/main/r18.pkl?raw=True'
 model_file_name = 'export.pkl'
 classes = ['Parasitized','Uninfected']
 path = Path(__file__).parent
